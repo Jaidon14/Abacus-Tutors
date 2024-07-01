@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Abacus Tutors 2</title>
+
+        <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" />
+
+        <link rel="stylesheet" href="styles.css">
+
+        <script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+    </head>
+
+    <body>
+
+        <!-- Navigation -->
+        <nav>
+            <a href="index.html"><img src="images/abacus.jpg" alt=""></a>
+            <div class="navigation">
+                <ul>
+                    <i id="menu-close" class="fas fa-times"></i>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a class="active" href="course.html">Courses</a></li>
+                    <li><a href="work.html">Our Work</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+                <img id="menu-btn" src="images/menu.png" alt="">
+            </div>
+        </nav>
+
+        <!-- Home -->
+
+        <section id="about-home">
+            <h2>Grade 8</h2>
+        </section>
+
+        <section id="course-inner">
+            <div class="overview">
+                <img class="course-img" src="images/pic3.jpg" alt="">
+                <div class="course-head">
+                    <div class="c-name">
+                        <h2>Grade 8 mathematics</h2>
+                        <div class="star">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                        <p>This Grade 8 Mathematics course is designed to prepare students for high school math and beyond, fostering a lifelong appreciation for the subject. </p>
+                    </div>
+                </div>
+                <h3>Instructor</h3>
+                <div class="tutor">
+                    <img src="images/chicken.jpg" alt="">
+                    <div class="tutor-det">
+                        <h5>Callen Pulliah</h5>
+                        <p>Maths Tutor</p>
+                    </div>
+                </div>
+                <hr>
+                <h3>Course Overview</h3>
+                <p>Introduction to linear equations, inequalities, and systems of equations. Students will learn to solve and graph these equations and inequalities.
+                <br>Exploration of geometric shapes, theorems, and proofs. Topics include angles, triangles, the Pythagorean theorem, and the basics of transformations.
+                <br>Data Analysis and Probability: Understanding and interpreting data through mean, median, mode, and range. Students will also learn about probability concepts and simple experiments.
+                <br>Strengthening arithmetic skills with integers, fractions, decimals, and rational numbers. Emphasis on operations, order of operations, and number properties.
+                <br>Introduction to the concept of functions and their representations. Students will learn about linear functions and their applications.</p>
+                <hr>
+
+                <h3>What you will learn</h3>
+                <div class="learn">
+                    <p><i class="far fa-check-circle"></i> Eqautions</p>
+                    <p><i class="far fa-check-circle"></i> Eqautions</p>
+                    <p><i class="far fa-check-circle"></i> Eqautions</p>
+                    <p><i class="far fa-check-circle"></i> Eqautions</p>
+                    <p><i class="far fa-check-circle"></i> Eqautions</p>
+                </div>
+            </div>
+            <div class="enroll">
+                <h3>This course includes:</h3>
+                <p><i class="far fa-check-circle"></i> Eqautions</p>
+                    <p><i class="far fa-check-circle"></i> Eqautions</p>
+                    <p><i class="far fa-check-circle"></i> Eqautions</p>
+                    <p><i class="far fa-check-circle"></i> Eqautions</p>
+                    <p><i class="far fa-check-circle"></i> Eqautions</p>
+                    <div class="enroll-btn">
+                        <a class="blue" href="contact.html">Enroll Now!</a>
+                    </div>
+            </div>
+        </section>
+
+
+
+        <!-- Footer -->
+        <footer>
+            <div class="footer-col">
+                <h3>Top Courses</h3>
+                <li>Grade 10 Trig</li>
+                <li>Grade 11 probability</li>
+                <li>Grade 12 calculus</li>
+            </div>
+            <div class="footer-col">
+                <h3>Keep in touch</h3>
+                <li>Callen Pulliah</li>
+                <li>084 567 4563</li>
+            </div>
+            <div class="footer-col">
+                <h3>Located</h3>
+                <li>25 Hennie Alberts Street, Brackenhurst</li>
+            </div>
+
+            <div class="copyright">
+                <p>Copyright ©2024 All rights reserved </p>
+                <div class="pro-links">
+                    <i class="fab fa-facebook-f"></i>
+                    <i class="fab fa-instagram"></i>
+                    <i class="fab fa-linkedin-in"></i>
+                </div>
+            </div>
+        </footer>
+
+        <script>
+              $('#menu-btn').click(function(){
+            $('nav .navigation ul').addClass('active')
+        });
+              $('#menu-close').click(function(){
+            $('nav .navigation ul').removeClass('active')
+        });
+
+       
+        </script>
+
+
+    </body>
+
+</html>
